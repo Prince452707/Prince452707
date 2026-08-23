@@ -22,9 +22,9 @@
 
 <br/>
 
-<!-- ═══ THE PLOT ═══ -->
+<!-- ═══ THE SCRIPT / THE METHOD ═══ -->
 <h2 align="center">
-  🎬 &nbsp; <i>The Plot</i>
+  🎬 &nbsp; <i>Scene I: The Method</i>
 </h2>
 
 <p align="center">
@@ -32,28 +32,23 @@
 </p>
 
 ```
-                          ╔══════════════════════════════════════════╗
-                          ║                                          ║
-                          ║   In a world full of bugs and deadlines, ║
-                          ║   one developer rides alone...           ║
-                          ║                                          ║
-                          ║   Armed with Kotlin and Java,            ║
-                          ║   wielding React and Node like twin      ║
-                          ║   revolvers, he builds what others       ║
-                          ║   only dream of.                         ║
-                          ║                                          ║
-                          ║   His code compiles on the first try.    ║
-                          ║   His commits tell a story.              ║
-                          ║   His pull requests... legendary.        ║
-                          ║                                          ║
-                          ║   They call him —                        ║
-                          ║                                          ║
-                          ║       ★  THE CODE WRANGLER  ★            ║
-                          ║                                          ║
-                          ║   Builder @ Vecontra                     ║
-                          ║   India 🇮🇳                               ║
-                          ║                                          ║
-                          ╚══════════════════════════════════════════╝
+[ SCENE START: 00:00:01 ]
+
+LOCATION : Production Ground
+ATMOSPHERE: Dead silence. High stakes. Complex systems.
+
+    While others debate in meetings, he dissects the codebase.
+    No noise. No panic. Cold-blooded focus.
+
+    He doesn't write code to fill repositories.
+    He writes code to solve what others call impossible.
+
+    A lethal mix of Kotlin, Java, React, and RAG pipelines—
+    dispatched with surgical calm and zero hesitation.
+
+    "Move in silence. Let the shipped product make the noise."
+
+[ SCENE END ]
 ```
 
 <br/>
@@ -84,14 +79,14 @@
 
 <p align="center">
   <a href="https://github.com/Prince452707">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Prince452707&show_icons=true&theme=transparent&bg_color=0c0a08&title_color=a89770&text_color=7a6d52&icon_color=6b5c3e&border_color=2a2218&border_radius=8&hide_border=false&count_private=true&ring_color=a89770" />
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Prince452707&layout=compact&theme=transparent&bg_color=0c0a08&title_color=a89770&text_color=7a6d52&border_color=2a2218&border_radius=8&hide_border=false&langs_count=8" />
+    <img height="165em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Prince452707&show_icons=true&theme=dark&bg_color=0c0a08&title_color=a89770&text_color=a89770&icon_color=d4c5a0&border_color=2a2218&border_radius=8&count_private=true" />
+    <img height="165em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Prince452707&layout=compact&theme=dark&bg_color=0c0a08&title_color=a89770&text_color=a89770&border_color=2a2218&border_radius=8&langs_count=8" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://github.com/Prince452707">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Prince452707&theme=transparent&background=0c0a08&ring=a89770&fire=d4c5a0&currStreakLabel=a89770&sideLabels=7a6d52&sideNums=d4c5a0&currStreakNum=d4c5a0&dates=3d3425&border=2a2218&border_radius=8" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Prince452707&theme=dark&background=0c0a08&ring=a89770&fire=d4c5a0&currStreakLabel=a89770&sideLabels=7a6d52&sideNums=d4c5a0&currStreakNum=d4c5a0&dates=3d3425&border=2a2218&border_radius=8" />
   </a>
 </p>
 
@@ -125,11 +120,11 @@
 </p>
 
 <p align="center">
-  <i>"Every great developer you know was once a beginner who refused to give up."</i>
+  <i>"No hesitation. No noise. Just clean shots and shipped systems."</i>
 </p>
 
 <p align="center">
-  <sub>★ &nbsp; Hand-crafted. Not generated. A cinematic experience. &nbsp; ★</sub>
+  <sub>★ &nbsp; Hand-crafted cinematic direction. &nbsp; ★</sub>
 </p>
 
 <p align="center">

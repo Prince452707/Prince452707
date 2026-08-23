@@ -1,5 +1,9 @@
 <p align="center">
-  <img src="dark_mode.svg" alt="Prince Kumar's GitHub Profile" width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="light_mode.svg" />
+    <img alt="Prince Kumar's GitHub Profile" src="dark_mode.svg" width="100%" />
+  </picture>
 </p>
 
 ---

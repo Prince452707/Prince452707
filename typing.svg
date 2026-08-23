@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="50" viewBox="0 0 900 50">
+  <defs>
+    <filter id="fl3">
+      <feComponentTransfer>
+        <feFuncR type="linear" slope="1">
+          <animate attributeName="slope" values="1;0.95;1;0.97;1" dur="0.7s" repeatCount="indefinite"/>
+        </feFuncR>
+        <feFuncG type="linear" slope="1">
+          <animate attributeName="slope" values="1;0.95;1;0.97;1" dur="0.7s" repeatCount="indefinite"/>
+        </feFuncG>
+        <feFuncB type="linear" slope="1">
+          <animate attributeName="slope" values="1;0.95;1;0.97;1" dur="0.7s" repeatCount="indefinite"/>
+        </feFuncB>
+      </feComponentTransfer>
+    </filter>
+    <style>
+      @keyframes cursor { 0%,49%{opacity:1} 50%,100%{opacity:0} }
+      .c { animation: cursor 1s infinite; }
+    </style>
+    <clipPath id="cl">
+      <rect x="30" y="5" height="40" width="680">
+        <animate attributeName="width" values="0;680;680;0" keyTimes="0;0.25;0.75;1" dur="16s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <g filter="url(#fl3)">
+    <rect width="900" height="50" fill="#0c0a08"/>
+    <line x1="0" y1="1" x2="900" y2="1" stroke="#2a2218" stroke-width="0.5"/>
+    <line x1="0" y1="49" x2="900" y2="49" stroke="#2a2218" stroke-width="0.5"/>
+
+    <g clip-path="url(#cl)">
+      <text x="30" y="33" font-family="'Georgia', 'Times New Roman', serif" font-size="15" fill="#a89770" letter-spacing="1" font-style="italic">
+        <tspan fill="#3d3425">▸ </tspan>Kotlin · Java · React · Node · Flutter · Dart · C++ · RAG · TypeScript
+      </text>
+    </g>
+    <rect x="710" y="14" width="9" height="22" fill="#a89770" class="c" rx="1" opacity="0.7">
+      <animate attributeName="x" values="30;710;710;30" keyTimes="0;0.25;0.75;1" dur="16s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>

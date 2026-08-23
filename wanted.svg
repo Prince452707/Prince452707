@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="250" viewBox="0 0 900 250">
+  <defs>
+    <filter id="grain2" x="0%" y="0%" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.6" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feBlend in="SourceGraphic" mode="multiply"/>
+    </filter>
+    <filter id="flicker2">
+      <feComponentTransfer>
+        <feFuncR type="linear" slope="1">
+          <animate attributeName="slope" values="1;0.94;1;0.97;1" dur="0.6s" repeatCount="indefinite"/>
+        </feFuncR>
+        <feFuncG type="linear" slope="1">
+          <animate attributeName="slope" values="1;0.94;1;0.97;1" dur="0.6s" repeatCount="indefinite"/>
+        </feFuncG>
+        <feFuncB type="linear" slope="1">
+          <animate attributeName="slope" values="1;0.94;1;0.97;1" dur="0.6s" repeatCount="indefinite"/>
+        </feFuncB>
+      </feComponentTransfer>
+    </filter>
+    <radialGradient id="vig2" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0.5"/>
+    </radialGradient>
+  </defs>
+
+  <g filter="url(#flicker2)">
+    <rect width="900" height="250" fill="#100e0a"/>
+
+    <!-- Wanted poster aged paper center -->
+    <rect x="80" y="15" width="740" height="220" rx="4" fill="#1c1812" stroke="#3d3425" stroke-width="1.5" stroke-dasharray="8,4"/>
+
+    <!-- Inner border -->
+    <rect x="95" y="30" width="710" height="190" rx="2" fill="none" stroke="#3d3425" stroke-width="0.8"/>
+
+    <!-- Header ornament -->
+    <text x="450" y="55" text-anchor="middle" font-size="10" fill="#5c4d35" letter-spacing="2">⊱ ━━━━━━━━━━━━━━━━━━━━ ⊰</text>
+
+    <!-- WANTED text -->
+    <text x="450" y="82" text-anchor="middle" font-family="'Georgia', 'Times New Roman', serif" font-weight="700" font-size="22" fill="#a89770" letter-spacing="14">
+      WANTED
+    </text>
+
+    <!-- Subtitle -->
+    <text x="450" y="100" text-anchor="middle" font-family="'Georgia', serif" font-size="9" fill="#6b5c3e" letter-spacing="6">FOR EXCEPTIONAL CODE WRANGLING</text>
+
+    <!-- Divider -->
+    <line x1="250" y1="110" x2="650" y2="110" stroke="#3d3425" stroke-width="0.5"/>
+
+    <!-- Stats in old western style -->
+    <text x="220" y="140" font-family="'Georgia', serif" font-size="12">
+      <tspan fill="#6b5c3e">Alias </tspan><tspan fill="#3d3425">···········</tspan><tspan fill="#a89770"> Prince452707</tspan>
+    </text>
+    <text x="520" y="140" font-family="'Georgia', serif" font-size="12">
+      <tspan fill="#6b5c3e">Outfit </tspan><tspan fill="#3d3425">··········</tspan><tspan fill="#a89770"> Vecontra</tspan>
+    </text>
+
+    <text x="220" y="162" font-family="'Georgia', serif" font-size="12">
+      <tspan fill="#6b5c3e">Weapons </tspan><tspan fill="#3d3425">·····</tspan><tspan fill="#a89770"> Kotlin · Java · React</tspan>
+    </text>
+    <text x="520" y="162" font-family="'Georgia', serif" font-size="12">
+      <tspan fill="#6b5c3e">Arsenal </tspan><tspan fill="#3d3425">······</tspan><tspan fill="#a89770"> Node · Flutter · RAG</tspan>
+    </text>
+
+    <text x="220" y="184" font-family="'Georgia', serif" font-size="12">
+      <tspan fill="#6b5c3e">Bounty </tspan><tspan fill="#3d3425">·······</tspan><tspan fill="#a89770"> 26 Repos · 9 Stars</tspan>
+    </text>
+    <text x="520" y="184" font-family="'Georgia', serif" font-size="12">
+      <tspan fill="#6b5c3e">Sightings </tspan><tspan fill="#3d3425">···</tspan><tspan fill="#a89770"> 135 Commits</tspan>
+    </text>
+
+    <!-- Divider -->
+    <line x1="250" y1="196" x2="650" y2="196" stroke="#3d3425" stroke-width="0.5"/>
+
+    <!-- Reward -->
+    <text x="450" y="215" text-anchor="middle" font-family="'Georgia', serif" font-style="italic" font-size="11" fill="#6b5c3e" letter-spacing="2">
+      REWARD: Open to collaborate — dead(lines) or alive
+    </text>
+
+    <!-- Bottom ornament -->
+    <text x="450" y="235" text-anchor="middle" font-size="10" fill="#5c4d35">★</text>
+  </g>
+
+  <!-- Vignette -->
+  <rect width="900" height="250" fill="url(#vig2)"/>
+  <!-- Grain -->
+  <rect width="900" height="250" filter="url(#grain2)" opacity="0.12" fill="transparent"/>
+</svg>

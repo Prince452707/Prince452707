@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260">
+  <defs>
+    <!-- Projector flicker -->
+    <filter id="rec-flk">
+      <feComponentTransfer>
+        <feFuncR type="linear" slope="1"><animate attributeName="slope" values="1;0.94;1;0.97;1" dur="0.5s" repeatCount="indefinite"/></feFuncR>
+        <feFuncG type="linear" slope="1"><animate attributeName="slope" values="1;0.94;1;0.97;1" dur="0.5s" repeatCount="indefinite"/></feFuncG>
+        <feFuncB type="linear" slope="1"><animate attributeName="slope" values="1;0.94;1;0.97;1" dur="0.5s" repeatCount="indefinite"/></feFuncB>
+      </feComponentTransfer>
+    </filter>
+
+    <!-- Film grain -->
+    <filter id="rec-grn">
+      <feTurbulence type="fractalNoise" baseFrequency="0.7" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feBlend in="SourceGraphic" mode="multiply"/>
+    </filter>
+
+    <!-- Vignette -->
+    <radialGradient id="rec-vig" cx="50%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#000" stop-opacity="0"/>
+      <stop offset="70%" stop-color="#000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0.6"/>
+    </radialGradient>
+  </defs>
+
+  <g filter="url(#rec-flk)">
+    <!-- Canvas -->
+    <rect width="900" height="260" rx="8" fill="#0c0a08"/>
+    <rect x="0.5" y="0.5" width="899" height="259" rx="8" fill="none" stroke="#2a2218" stroke-width="1"/>
+
+    <!-- Left Box: Career Ledger -->
+    <rect x="30" y="25" width="400" height="210" rx="6" fill="#14110d" stroke="#2a2218" stroke-width="1"/>
+    <text x="50" y="55" font-family="'Georgia', serif" font-weight="700" font-size="14" fill="#d4c5a0" letter-spacing="3">THE LEDGER</text>
+    <line x1="50" y1="65" x2="410" y2="65" stroke="#2a2218" stroke-width="0.8"/>
+
+    <text x="50" y="98" font-family="'Georgia', serif" font-size="13">
+      <tspan fill="#6b5c3e">Total Deployments</tspan>
+      <tspan fill="#3d3425"> ················· </tspan>
+      <tspan fill="#a89770" font-weight="700">1,190+</tspan>
+    </text>
+
+    <text x="50" y="130" font-family="'Georgia', serif" font-size="13">
+      <tspan fill="#6b5c3e">Active Arsenals (Repos)</tspan>
+      <tspan fill="#3d3425"> ·········· </tspan>
+      <tspan fill="#a89770" font-weight="700">26</tspan>
+    </text>
+
+    <text x="50" y="162" font-family="'Georgia', serif" font-size="13">
+      <tspan fill="#6b5c3e">Community Bounties (Stars)</tspan>
+      <tspan fill="#3d3425"> ······· </tspan>
+      <tspan fill="#a89770" font-weight="700">9 ★</tspan>
+    </text>
+
+    <text x="50" y="194" font-family="'Georgia', serif" font-size="13">
+      <tspan fill="#6b5c3e">Primary Territory</tspan>
+      <tspan fill="#3d3425"> ················· </tspan>
+      <tspan fill="#a89770" font-weight="700">Mobile · AI · Fullstack</tspan>
+    </text>
+
+
+    <!-- Right Box: Language Mastery Breakdown -->
+    <rect x="470" y="25" width="400" height="210" rx="6" fill="#14110d" stroke="#2a2218" stroke-width="1"/>
+    <text x="490" y="55" font-family="'Georgia', serif" font-weight="700" font-size="14" fill="#d4c5a0" letter-spacing="3">BALLISTICS (LANGUAGES)</text>
+    <line x1="490" y1="65" x2="850" y2="65" stroke="#2a2218" stroke-width="0.8"/>
+
+    <!-- Bar 1: Dart / Flutter -->
+    <text x="490" y="93" font-family="'JetBrains Mono', monospace" font-size="11" fill="#a89770">Dart / Flutter</text>
+    <text x="825" y="93" font-family="'JetBrains Mono', monospace" font-size="11" fill="#6b5c3e">42%</text>
+    <rect x="490" y="100" width="340" height="6" rx="3" fill="#2a2218"/>
+    <rect x="490" y="100" width="143" height="6" rx="3" fill="#a89770"/>
+
+    <!-- Bar 2: Kotlin / Java -->
+    <text x="490" y="133" font-family="'JetBrains Mono', monospace" font-size="11" fill="#a89770">Kotlin / Java</text>
+    <text x="825" y="133" font-family="'JetBrains Mono', monospace" font-size="11" fill="#6b5c3e">28%</text>
+    <rect x="490" y="140" width="340" height="6" rx="3" fill="#2a2218"/>
+    <rect x="490" y="140" width="95" height="6" rx="3" fill="#8c7d5c"/>
+
+    <!-- Bar 3: JavaScript / TypeScript -->
+    <text x="490" y="173" font-family="'JetBrains Mono', monospace" font-size="11" fill="#a89770">JavaScript / React</text>
+    <text x="825" y="173" font-family="'JetBrains Mono', monospace" font-size="11" fill="#6b5c3e">18%</text>
+    <rect x="490" y="180" width="340" height="6" rx="3" fill="#2a2218"/>
+    <rect x="490" y="180" width="61" height="6" rx="3" fill="#6e6248"/>
+
+    <!-- Bar 4: C++ / RAG -->
+    <text x="490" y="213" font-family="'JetBrains Mono', monospace" font-size="11" fill="#a89770">C++ / RAG Architecture</text>
+    <text x="825" y="213" font-family="'JetBrains Mono', monospace" font-size="11" fill="#6b5c3e">12%</text>
+    <rect x="490" y="220" width="340" height="6" rx="3" fill="#2a2218"/>
+    <rect x="490" y="220" width="41" height="6" rx="3" fill="#524835"/>
+  </g>
+
+  <!-- Vignette -->
+  <rect width="900" height="260" fill="url(#rec-vig)"/>
+  <!-- Grain -->
+  <rect width="900" height="260" filter="url(#rec-grn)" opacity="0.1" fill="transparent"/>
+</svg>

@@ -78,16 +78,7 @@ ATMOSPHERE: Dead silence. High stakes. Complex systems.
 </p>
 
 <p align="center">
-  <a href="https://github.com/Prince452707">
-    <img height="165em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Prince452707&show_icons=true&theme=dark&bg_color=0c0a08&title_color=a89770&text_color=a89770&icon_color=d4c5a0&border_color=2a2218&border_radius=8&count_private=true" />
-    <img height="165em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Prince452707&layout=compact&theme=dark&bg_color=0c0a08&title_color=a89770&text_color=a89770&border_color=2a2218&border_radius=8&langs_count=8" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/Prince452707">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Prince452707&theme=dark&background=0c0a08&ring=a89770&fire=d4c5a0&currStreakLabel=a89770&sideLabels=7a6d52&sideNums=d4c5a0&currStreakNum=d4c5a0&dates=3d3425&border=2a2218&border_radius=8" />
-  </a>
+  <img src="record.svg" alt="Career Ledger and Ballistics" width="100%" />
 </p>
 
 <br/>

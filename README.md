@@ -1,65 +1,184 @@
-<svg width="1200" height="260" viewBox="0 0 1200 260" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0f172a"/>
-      <stop offset="50%" stop-color="#0f766e"/>
-      <stop offset="100%" stop-color="#1e293b"/>
-    </linearGradient>
+<!-- Header banner using local SVG -->
+<p align="center">
+  <img src="./header.svg" alt="Prince Kumar – Crypto Dev & Founder" />
+</p>
 
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#22c55e"/>
-      <stop offset="100%" stop-color="#38bdf8"/>
-    </linearGradient>
+<!-- Optional: typing SVG (external service) -->
+<p align="center">
+  <img
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=3000&pause=1000&color=22C55E&center=true&vCenter=true&width=700&lines=Prince+Kumar+%7C+Crypto+Dev+%26+Founder;Building+Vecontra+for+Indian+crypto+users"
+    alt="Typing SVG"
+  />
+</p>
 
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="8" result="blur"/>
-      <feColorMatrix in="blur" type="matrix"
-        values="0 0 0 0 0.13
-                0 0 0 0 0.96
-                0 0 0 0 0.75
-                0 0 0 0.7 0"/>
-    </filter>
-  </defs>
+---
 
-  <!-- Background -->
-  <rect width="1200" height="260" fill="url(#bg)" rx="24"/>
+# 🚀 Prince Kumar &nbsp;|&nbsp; Crypto Dev & Founder
 
-  <!-- Subtle grid -->
-  <g opacity="0.15" stroke="#0f172a">
-    <line x1="80" y1="40" x2="80" y2="220"/>
-    <line x1="160" y1="40" x2="160" y2="220"/>
-    <line x1="240" y1="40" x2="240" y2="220"/>
-    <line x1="320" y1="40" x2="320" y2="220"/>
-    <line x1="400" y1="40" x2="400" y2="220"/>
-  </g>
+🔭 Currently building **Vecontra – Data‑Driven Crypto Intelligence for Indian users**  
+🌱 Exploring **AI‑powered research, on‑chain analytics, RAG (Retrieval‑Augmented Generation), AWS & interactive developer experiences**  
+💼 Experience with **Flutter, Kotlin, Node.js, REST APIs, crypto data providers, AWS & dashboard‑style apps**  
+⚡ Specialized in **Dart, Kotlin, Node.js, API integration, GitHub Actions & research workflows**  
+🤖 Curious about **LLMs, Web3 tooling, analytics, and dev‑first crypto products**  
+🎯 Goal: **Build scalable crypto research products and a strong developer brand**
 
-  <!-- Glow orb -->
-  <circle cx="1020" cy="70" r="40" fill="#22c55e" opacity="0.12" filter="url(#glow)"/>
-  <circle cx="1040" cy="90" r="22" fill="#38bdf8" opacity="0.4"/>
+---
 
-  <!-- Main text -->
-  <text x="110" y="110" fill="#e5e7eb" font-size="36" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-weight="700">
-    Prince Kumar · Crypto Dev & Founder
-  </text>
+## 🧑‍💻 About Me
 
-  <text x="110" y="150" fill="#9ca3af" font-size="20" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
-    Building Vecontra – data-driven crypto intelligence for Indian users
-  </text>
+- 🇮🇳 Based in Uttar Pradesh, India  
+- 🧠 Focused on **crypto research platforms** and **developer‑friendly tools**  
+- 🎥 Create **short‑form educational content** (Reels & Shorts) around crypto & tech  
+- 🛠 Love making **API‑driven, data‑heavy applications** that feel simple for users  
+- ☁️ Learning and using **AWS** for hosting APIs, dashboards and RAG‑style AI services  
+- 🧩 Currently experimenting with **RAG (Retrieval‑Augmented Generation)** to ground AI answers in real crypto data and research documents  
 
-  <!-- Tag pills -->
-  <rect x="110" y="185" rx="18" ry="18" width="210" height="34" fill="#0b1120" stroke="#1f2937"/>
-  <text x="125" y="207" fill="#e5e7eb" font-size="16" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
-    Flutter · APIs · Crypto Research
-  </text>
+---
 
-  <rect x="340" y="185" rx="18" ry="18" width="260" height="34" fill="#0b1120" stroke="#1f2937"/>
-  <text x="355" y="207" fill="#e5e7eb" font-size="16" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
-    Reels · Shorts · Educational Content
-  </text>
+## ⚒️ Languages · Frameworks · Tools
 
-  <!-- Right-side badge -->
-  <rect x="820" y="165" rx="18" ry="18" width="270" height="54" fill="#0b1120" stroke="url(#accent)"/>
-  <text x="840" y="198" fill="#e5e7eb" font-size="18" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-weight="600">
-    Vecontra · Real-Time Crypto Analytics
-  </text>
-</svg>
+**Languages**
+
+- Dart, JavaScript/TypeScript  
+- Kotlin for Android / backend experiments  
+- A bit of Python for scripts and data tasks  
+
+**Frameworks & Platforms**
+
+- Flutter & Flutter Web  
+- Node.js (Express / REST APIs)  
+- Basic Kotlin backend experiments  
+- GitHub Actions for automation  
+
+**Tools & Services**
+
+- AWS (cloud hosting, APIs, basic infrastructure)  
+- Crypto data APIs (CoinGecko, CryptoCompare, etc.)  
+- VS Code, Android Studio, Git, GitHub  
+- Basic CI/CD and deployment workflows  
+- Vector databases / embeddings for **RAG‑style AI apps** (connecting external knowledge bases to LLMs)  
+
+---
+
+## 🛰 Vecontra – My Main Project
+
+> **Vecontra** – Real‑Time Crypto Analytics, DeFi Insights & AI‑Powered Research for Indian users.
+
+- 🌐 Live app: https://www.vecontra.com/  
+- 📊 Market overview: total market cap, 24h volume, active assets  
+- 🔍 Research focus: narratives, fundamentals, on‑chain & DeFi data  
+- 🎯 Audience: Indian retail and serious crypto users who want verified data  
+
+---
+
+## 🐍 My Contributions (Profile Activity)
+
+> This section highlights my public GitHub activity.  
+> (Later I’ll add dynamic contribution graphs and widgets.)
+
+- 🚧 Building and iterating on **Vecontra**  
+- 🧪 Experimenting with **Flutter + Kotlin + Node.js + AWS + API‑driven dashboards**  
+- 📦 Creating reusable patterns for **crypto research apps** and **RAG‑powered tools**  
+
+---
+
+## ⚡ GitHub Stats (Planned)
+
+> I’ll add visual stats cards here (commits, languages, top repos) using public GitHub‑stats services.
+
+_For now, this is a placeholder section to match the structure:_
+
+- 🔢 Commit activity & contribution graphs  
+- 🧮 Language breakdown (Dart, Kotlin, JS/TS, etc.)  
+- ⭐ Highlighted repos once they’re ready  
+
+---
+
+## 🎮 Interactive Games on My Profile
+
+You can play games using GitHub Issues in this repo and interact with my README.
+
+### Game 1 – Algorithm Arena
+
+Pick a lane and solve with code in your own repo or a Gist.
+
+**Lanes:**
+
+- 🧮 `easy` – arrays, strings, basic loops  
+- 🧠 `medium` – trees, graphs, DP  
+- 🚀 `hard` – performance, design, multi‑API problems  
+
+**How to play:**
+
+1. Open an Issue in `Prince452707/Prince452707`.  
+2. Use this title format:
+
+   - `Game: Algorithm Arena [easy]`  
+   - `Game: Algorithm Arena [medium]`  
+   - `Game: Algorithm Arena [hard]`  
+
+3. In the issue description, include:
+   - The problem statement  
+   - Your approach  
+   - Link to your solution repo / Gist  
+
+---
+
+### Game 2 – Vecontra Feature Pitch
+
+Pretend you’re a product engineer for Vecontra.
+
+**Your task:** Design a small feature that would help Indian crypto users research faster.
+
+**How to play:**
+
+1. Open an Issue titled: `Game: Vecontra Feature Pitch`  
+2. In the issue body, answer:
+
+   - Problem: What user pain are you solving?  
+   - Solution: Describe the feature in 3–5 bullet points  
+   - Tech: What APIs / data would you use?  
+   - UI: Briefly describe how it looks in Vecontra  
+
+---
+
+### Game 3 – Crypto Tic‑Tac‑Toe (🐂 vs 🐻)
+
+A simple board game played via Issues; I’ll keep the board and scores updated.  
+Scoreboard is shown using `game-score.svg` below.
+
+**Current Board**
+
+|   |   |   |
+|---|---|---|
+| 1 | 2 | 3 |
+| 4 | 5 | 6 |
+| 7 | 8 | 9 |
+
+**How to play:**
+
+1. Choose your side:  
+   - Bulls (X) → issue title: `Game: TTT Bulls`  
+   - Bears (O) → issue title: `Game: TTT Bears`  
+2. In the issue body, write:
+   - The cell number you want (1–9)  
+   - Optional: a short crypto reason for your move  
+
+I’ll update this table with 🐂 or 🐻 and announce winners in a Hall of Fame.
+
+<p align="center">
+  <img src="./game-score.svg" alt="Crypto Game Scoreboard" />
+</p>
+
+---
+
+## 📬 Connect With Me
+
+- 🌐 App: [Vecontra](https://www.vecontra.com/)  
+- 🐙 GitHub: [@Prince452707](https://github.com/Prince452707)  
+- 📧 Email: princevecontra@gmail.com  
+- 📹 Content: Reels / Shorts links coming soon  
+
+---
+
+> This profile is inspired by structured, developer‑focused READMEs and will evolve into a live crypto + dev dashboard over time.

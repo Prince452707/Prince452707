@@ -1,84 +1,140 @@
+<!--
+Vecontra Command Center Banner (TODO)
+Uncomment this when you have a real deployed URL that returns an SVG/PNG.
 
-<!-- Vecontra Command Center Banner -->
 <p align="center">
   <img
     src="https://your-app.vercel.app/api/banner?user=Prince452707"
     alt="Vecontra Command Center – Crypto + Dev Activity"
   />
 </p>
+-->
 
 ---
 
 ## 👋 Hey, I'm Prince Kumar
 
-I’m a software developer and crypto-focused founder from Uttar Pradesh, India, building tools that make crypto research actually usable for normal people.
+I’m a software developer and crypto-focused founder from Uttar Pradesh, India, building tools that make crypto research usable for normal people.
 
-- 🧠 Focus: Crypto research platforms, Flutter apps, API-driven dashboards
-- 🎥 Side: Short-form educational content for Instagram Reels & YouTube Shorts
-- 🌏 Built for: Indian crypto users who want verified, data-driven insights
+- 🧠 Focus: Crypto research platforms, Flutter apps, API-driven dashboards  
+- 🎥 Side: Short-form educational content for Reels & Shorts  
+- 🌏 Built for: Indian crypto users who want verified, data‑driven insights  
 
 ---
 
-## 🚀 What I’m Building Right Now
+## 🚀 Vecontra – Data‑Driven Crypto Intelligence
 
-### 🛰 Vecontra – Data‑Driven Crypto Intelligence
+[Vecontra](https://www.vecontra.com/) is my flagship project: a unified crypto research platform combining AI-powered analysis with real-time market and on-chain data.
 
-[Vecontra](https://www.vecontra.com/) is my flagship project: a unified crypto research platform that combines AI-powered analysis with real-time on-chain and market data.
+---
 
-- 📊 Market overview: Total market cap, 24h volume, active assets
-- 🔍 Deep dives: Narrative-based research, token fundamentals, DeFi analytics
-- ⚙️ Stack: Flutter, modern APIs (market data, DeFi, on-chain), custom dashboards
+## 🎮 Coding Games on My Profile
 
-> My GitHub profile is designed to be the “command center” for Vecontra: code, experiments, and dev activity all in one place.
+You can “play” coding games using GitHub Issues in this repo.
+
+### Game 1 – Algorithm Arena (solo + community)
+
+Pick a lane and solve with code in your own repo or a Gist.
+
+**Lanes:**
+
+- 🧮 `easy` – arrays, strings, basic loops  
+- 🧠 `medium` – trees, graphs, DP  
+- 🚀 `hard` – performance, design, multi‑API problems  
+
+**How to play:**
+
+1. Open an Issue in `Prince452707/Prince452707`.  
+2. Use this title format:
+
+   - `Game: Algorithm Arena [easy]`  
+   - `Game: Algorithm Arena [medium]`  
+   - `Game: Algorithm Arena [hard]`  
+
+3. In the issue description, include:
+   - The problem statement
+   - Your approach
+   - Link to your solution repo / Gist
+
+I’ll review selected solutions, add comments, and occasionally pin the best ones in a “Hall of Fame” section.
+
+---
+
+### Game 2 – Vecontra Feature Pitch
+
+Pretend you’re a product engineer for Vecontra.
+
+**Your task:** Design a small feature that would help Indian crypto users research faster.
+
+Examples:
+
+- “One‑page on-chain wallet profile”  
+- “Alert when a token’s on‑chain activity spikes”  
+- “Hindi summary for complex DeFi protocols”  
+
+**How to play:**
+
+1. Open an Issue titled:  
+   `Game: Vecontra Feature Pitch`  
+2. In the issue body, answer:
+
+   - Problem: What user pain are you solving?  
+   - Solution: Describe the feature in 3–5 bullet points.  
+   - Tech: What APIs / data would you use?  
+   - UI: Briefly describe how it looks in Vecontra.  
+
+I’ll respond with feedback like a real product review and may actually prototype the best ideas.
+
+---
+
+## ❓ Coding Questions for You (and Me)
+
+These are questions I’m currently interested in. You can answer via Issues; I’ll keep my own notes and experiments linked here.
+
+### Q1 – Flutter + Crypto APIs
+
+> How would you architect a Flutter app that shows **real-time crypto prices**, with:
+> - API rate limit safety  
+> - Offline caching  
+> - A clean way to swap data providers (CoinGecko, CryptoCompare, etc.)?
+
+Answer format (in an Issue titled `Question: Flutter + Crypto APIs`):
+
+- Brief architecture diagram (text)  
+- State management choice (e.g. Riverpod, BLoC)  
+- How you’d handle retries, errors, and offline mode  
+
+---
+
+### Q2 – GitHub + Games
+
+> GitHub READMEs are static Markdown, but people still run games (chess, Connect4, etc.) using **Issues + GitHub Actions**.  
+> How would you design a **simple coding quiz game** that updates my README daily?
+
+Answer format (in an Issue titled `Question: GitHub Quiz Game`):
+
+- How you’d store questions  
+- How GitHub Actions would pick and render today’s question  
+- How players submit answers (issues / PRs)  
 
 ---
 
 ## 🛠️ Tech I Work With
 
-- 💻 Languages: Dart, JavaScript/TypeScript, a bit of Python
-- 📱 Frameworks: Flutter, Flutter Web
-- ☁️ Backend & APIs: REST/JSON APIs, crypto data providers, serverless functions
-- 🧩 Other: GitHub Actions, automation, analytics dashboards
-
----
-
-## 🧩 Interactive README – How To Play With It
-
-You can literally interact with my profile via GitHub issues in this repo (`Prince452707`):
-
-- `/track BTC` – suggest a coin to highlight in the Vecontra Command Center banner
-- `/focus defi` – request focus on a category (DeFi, L1s, memecoins, etc.)
-- `/idea <your-topic>` – propose a topic for my next Reel/Short
-
-I’ll hook a GitHub Action + a small backend to:
-- Parse these commands from issues
-- Update a config file (e.g. `command-center.json`)
-- Regenerate the banner image you see at the top of this README
-
-So over time, this profile becomes a small crypto strategy game driven by you.
-
----
-
-## 📂 Featured Work
-
-### 🔹 Vecontra – Unified Crypto Research Platform
-- Live app: https://www.vecontra.com/
-- Goal: Make serious crypto research as easy to consume as social media
-
-### 🔹 Flutter & API Experiments
-- Flutter apps with dynamic data
-- Experiments around auto‑localization, dashboards, and research workflows
+- 💻 Languages: Dart, JavaScript/TypeScript  
+- 📱 Framework: Flutter  
+- ☁️ Backend & APIs: REST/JSON, crypto data providers, serverless functions  
+- 🧩 Other: GitHub Actions, dashboards, analytics  
 
 ---
 
 ## 📬 Connect With Me
 
-- 🌐 Website / App: [Vecontra](https://www.vecontra.com/)
-- 🐙 GitHub: [@Prince452707](https://github.com/Prince452707)
-- 📩 Email: `your-email-here`
-- 📹 Content (Reels/Shorts): `your-Instagram/YouTube-links-here`
+- 🌐 App: [Vecontra](https://www.vecontra.com/)  
+- 🐙 GitHub: [@Prince452707](https://github.com/Prince452707)  
+- 📧 Email: princevecontra@gmail.com  
+- 📹 Content: Reels / Shorts links coming soon  
 
 ---
 
-> This profile README is not just a static page.  
-> Over time, it will evolve into a live crypto + dev dashboard powered by GitHub Actions, APIs, and your issue commands.
+> Over time, I’ll upgrade this profile into a live crypto + dev dashboard using GitHub Actions and custom SVGs. For now, the games and questions are the first step.

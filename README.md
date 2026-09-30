@@ -166,9 +166,7 @@ Scoreboard is shown using `game-score.svg` below.
 
 I’ll update this table with 🐂 or 🐻 and announce winners in a Hall of Fame.
 
-<p align="center">
-  <img src="./game-score.svg" alt="Crypto Game Scoreboard" />
-</p>
+
 
 ---
 

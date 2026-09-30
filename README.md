@@ -96,9 +96,9 @@ These are questions I’m currently interested in. You can answer via Issues; I�
 > How would you architect a Flutter app that shows **real-time crypto prices**, with:
 > - API rate limit safety  
 > - Offline caching  
-> - A clean way to swap data providers (CoinGecko, CryptoCompare, etc.)?
+> - A clean way to swap data providers ?
 
-Answer format (in an Issue titled `Question: Flutter + Crypto APIs`):
+Answer format :
 
 - Brief architecture diagram (text)  
 - State management choice (e.g. Riverpod, BLoC)  
@@ -137,4 +137,4 @@ Answer format (in an Issue titled `Question: GitHub Quiz Game`):
 
 ---
 
-> Over time, I’ll upgrade this profile into a live crypto + dev dashboard using GitHub Actions and custom SVGs. For now, the games and questions are the first step.
+

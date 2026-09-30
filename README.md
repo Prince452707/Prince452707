@@ -1,140 +1,65 @@
-<!--
-Vecontra Command Center Banner (TODO)
-Uncomment this when you have a real deployed URL that returns an SVG/PNG.
+<svg width="1200" height="260" viewBox="0 0 1200 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#0f766e"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
 
-<p align="center">
-  <img
-    src="https://your-app.vercel.app/api/banner?user=Prince452707"
-    alt="Vecontra Command Center – Crypto + Dev Activity"
-  />
-</p>
--->
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22c55e"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
 
----
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feColorMatrix in="blur" type="matrix"
+        values="0 0 0 0 0.13
+                0 0 0 0 0.96
+                0 0 0 0 0.75
+                0 0 0 0.7 0"/>
+    </filter>
+  </defs>
 
-## 👋 Hey, I'm Prince Kumar
+  <!-- Background -->
+  <rect width="1200" height="260" fill="url(#bg)" rx="24"/>
 
-I’m a software developer and crypto-focused founder from Uttar Pradesh, India, building tools that make crypto research usable for normal people.
+  <!-- Subtle grid -->
+  <g opacity="0.15" stroke="#0f172a">
+    <line x1="80" y1="40" x2="80" y2="220"/>
+    <line x1="160" y1="40" x2="160" y2="220"/>
+    <line x1="240" y1="40" x2="240" y2="220"/>
+    <line x1="320" y1="40" x2="320" y2="220"/>
+    <line x1="400" y1="40" x2="400" y2="220"/>
+  </g>
 
-- 🧠 Focus: Crypto research platforms, Flutter , kotlin , nodejs , API-driven dashboards  
-- 🎥 Side: Short-form educational content for Reels & Shorts  
-- 🌏 Built for: Indian crypto users who want verified, data‑driven insights  
+  <!-- Glow orb -->
+  <circle cx="1020" cy="70" r="40" fill="#22c55e" opacity="0.12" filter="url(#glow)"/>
+  <circle cx="1040" cy="90" r="22" fill="#38bdf8" opacity="0.4"/>
 
----
+  <!-- Main text -->
+  <text x="110" y="110" fill="#e5e7eb" font-size="36" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-weight="700">
+    Prince Kumar · Crypto Dev & Founder
+  </text>
 
-## 🚀 Vecontra – Data‑Driven Crypto Intelligence
+  <text x="110" y="150" fill="#9ca3af" font-size="20" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    Building Vecontra – data-driven crypto intelligence for Indian users
+  </text>
 
-[Vecontra](https://www.vecontra.com/) is my flagship project: a unified crypto research platform combining AI-powered analysis with real-time market and on-chain data.
+  <!-- Tag pills -->
+  <rect x="110" y="185" rx="18" ry="18" width="210" height="34" fill="#0b1120" stroke="#1f2937"/>
+  <text x="125" y="207" fill="#e5e7eb" font-size="16" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    Flutter · APIs · Crypto Research
+  </text>
 
----
+  <rect x="340" y="185" rx="18" ry="18" width="260" height="34" fill="#0b1120" stroke="#1f2937"/>
+  <text x="355" y="207" fill="#e5e7eb" font-size="16" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    Reels · Shorts · Educational Content
+  </text>
 
-## 🎮 Coding Games on My Profile
-
-You can “play” coding games using GitHub Issues in this repo.
-
-### Game 1 – Algorithm Arena (solo + community)
-
-Pick a lane and solve with code in your own repo or a Gist.
-
-**Lanes:**
-
-- 🧮 `easy` – arrays, strings, basic loops  
-- 🧠 `medium` – trees, graphs, DP  
-- 🚀 `hard` – performance, design, multi‑API problems  
-
-**How to play:**
-
-1. Open an Issue in `Prince452707/Prince452707`.  
-2. Use this title format:
-
-   - `Game: Algorithm Arena [easy]`  
-   - `Game: Algorithm Arena [medium]`  
-   - `Game: Algorithm Arena [hard]`  
-
-3. In the issue description, include:
-   - The problem statement
-   - Your approach
-   - Link to your solution repo / Gist
-
-I’ll review selected solutions, add comments, and occasionally pin the best ones in a “Hall of Fame” section.
-
----
-
-### Game 2 – Vecontra Feature Pitch
-
-Pretend you’re a product engineer for Vecontra.
-
-**Your task:** Design a small feature that would help Indian crypto users research faster.
-
-Examples:
-
-- “One‑page on-chain wallet profile”  
-- “Alert when a token’s on‑chain activity spikes”  
-- “Hindi summary for complex DeFi protocols”  
-
-**How to play:**
-
-1. Open an Issue titled:  
-   `Game: Vecontra Feature Pitch`  
-2. In the issue body, answer:
-
-   - Problem: What user pain are you solving?  
-   - Solution: Describe the feature in 3–5 bullet points.  
-   - Tech: What APIs / data would you use?  
-   - UI: Briefly describe how it looks in Vecontra.  
-
-I’ll respond with feedback like a real product review and may actually prototype the best ideas.
-
----
-
-## ❓ Coding Questions for You (and Me)
-
-These are questions I’m currently interested in. You can answer via Issues; I’ll keep my own notes and experiments linked here.
-
-### Q1 – Flutter + Crypto APIs
-
-> How would you architect a Flutter app that shows **real-time crypto prices**, with:
-> - API rate limit safety  
-> - Offline caching  
-> - A clean way to swap data providers ?
-
-Answer format :
-
-- Brief architecture diagram (text)  
-- State management choice (e.g. Riverpod, BLoC)  
-- How you’d handle retries, errors, and offline mode  
-
----
-
-### Q2 – GitHub + Games
-
-> GitHub READMEs are static Markdown, but people still run games (chess, Connect4, etc.) using **Issues + GitHub Actions**.  
-> How would you design a **simple coding quiz game** that updates my README daily?
-
-Answer format (in an Issue titled `Question: GitHub Quiz Game`):
-
-- How you’d store questions  
-- How GitHub Actions would pick and render today’s question  
-- How players submit answers (issues / PRs)  
-
----
-
-## 🛠️ Tech I Work With
-
-- 💻 Languages: Dart, JavaScript/TypeScript  
-- 📱 Framework: Flutter  
-- ☁️ Backend & APIs: REST/JSON, crypto data providers, serverless functions  
-- 🧩 Other: GitHub Actions, dashboards, analytics  
-
----
-
-## 📬 Connect With Me
-
-- 🌐 App: [Vecontra](https://www.vecontra.com/)  
-- 🐙 GitHub: [@Prince452707](https://github.com/Prince452707)  
-- 📧 Email: princevecontra@gmail.com  
-- 📹 Content: Reels / Shorts links coming soon  
-
----
-
-
+  <!-- Right-side badge -->
+  <rect x="820" y="165" rx="18" ry="18" width="270" height="54" fill="#0b1120" stroke="url(#accent)"/>
+  <text x="840" y="198" fill="#e5e7eb" font-size="18" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-weight="600">
+    Vecontra · Real-Time Crypto Analytics
+  </text>
+</svg>

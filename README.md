@@ -16,7 +16,7 @@ Uncomment this when you have a real deployed URL that returns an SVG/PNG.
 
 I’m a software developer and crypto-focused founder from Uttar Pradesh, India, building tools that make crypto research usable for normal people.
 
-- 🧠 Focus: Crypto research platforms, Flutter apps, API-driven dashboards  
+- 🧠 Focus: Crypto research platforms, Flutter , kotlin , nodejs , API-driven dashboards  
 - 🎥 Side: Short-form educational content for Reels & Shorts  
 - 🌏 Built for: Indian crypto users who want verified, data‑driven insights  
 
